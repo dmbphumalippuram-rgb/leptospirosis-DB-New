@@ -153,6 +153,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 # ==============================================================================
 # 5. SIDE-BY-SIDE MAIN LAYOUT
 # ==============================================================================
+left_col, right_col = st.columns([3, 2])
 carto_key = st.secrets["CARTO_API_KEY"]
 carto_attr = '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/attributions">CARTO</a>'
 
